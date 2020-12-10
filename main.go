@@ -18,7 +18,7 @@ func must(err error) {
 }
 
 func getForce(s string) uint8 {
-	x, _ := strconv.ParseUint(s, 10, 8)
+	x, _ := strconv.ParseUint(s, 10, 16)
 	if x == 0 {
 		fmt.Printf("got 0 with %q\n", s)
 		return 0
