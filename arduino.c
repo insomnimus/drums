@@ -14,7 +14,7 @@ void setup() {
   pinMode(sen4, INPUT);
   pinMode(sen5, INPUT);
   
-  Serial.begin(9600);
+  Serial.begin(128000);
 }
  
 void loop() {
